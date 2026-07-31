@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    static void sum(int a, int b) {
-        System.out.println("Sum = " + (a + b));
+    static int product(int a, int b) {
+        return a * b;
     }
 
     public static void main(String[] args) {
@@ -13,6 +13,8 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        sum(a, b);
+        int result = product(a, b);
+
+        System.out.println("Product = " + result);
     }
 }
